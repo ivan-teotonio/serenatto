@@ -49,6 +49,11 @@ class Produto
         return $this->imagem;
     }
 
+    public function setImagem(string $imagem)
+    {
+        $this->imagem = $imagem;
+    }
+
     public function getPrecoFormatado(): string
     {
         return "R$ " .  number_format($this->preco, 2, ',', '.');
@@ -58,6 +63,7 @@ class Produto
     {
         return "img/{$this->imagem}";
     }
+
 }
 
 ?>
