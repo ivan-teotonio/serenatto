@@ -37,7 +37,7 @@ O Serenatto é um sistema web para administração de uma cafeteria, permitindo 
 ## 🚀 Instalação
 
 1. Clone este repositório
-2. Configure seu servidor web (Apache/Nginx) apontando para o diretório do projeto
+2. Configure seu servidor web do php:  php -S localhost:8000
 3. Importe o arquivo SQL disponível em `database/serenatto.sql`
 4. Configure as credenciais do banco de dados no arquivo `src/conexao.php`
 5. Acesse o sistema através do navegador
