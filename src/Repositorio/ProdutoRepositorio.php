@@ -53,5 +53,17 @@ class ProdutoRepositorio
         //return $stmt->rowCount() > 0;
     }
 
+    public function salvar(Produto $produto)
+    {
+        $sql = "INSERT INTO produtos (tipo, nome, descricao, preco, imagem) VALUES (?, ?, ?, ?, ?)";
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->bindValue(1, $produto->getTipo());
+        $stmt->bindValue(2, $produto->getNome());
+        $stmt->bindValue(3, $produto->getDescricao());
+        $stmt->bindValue(4, $produto->getPreco());
+        $stmt->bindValue(5, $produto->getImagem());
+        $stmt->execute();
+    }
+
 }
 
