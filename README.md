@@ -51,7 +51,7 @@ O sistema possui duas interfaces principais:
 
 ## 👥 Autor
 
-Desenvolvido por [Seu Nome]
+Desenvolvido por Ivan Teotonio
 
 ## 📄 Licença
 
@@ -59,6 +59,5 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE.md](LICENSE.md) 
 
 ## 📧 Contato
 
-- Email: [seu-email@exemplo.com]
-- LinkedIn: [seu-linkedin]
-- GitHub: [seu-github]
+- Email: ivanteotonio256@gmail.com
+- GitHub: https://github.com/ivan-teotonio
