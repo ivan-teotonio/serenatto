@@ -1,4 +1,3 @@
-# serenatto
 # Serenatto ☕
 
 Sistema de gerenciamento para cafeteria desenvolvido em PHP.
